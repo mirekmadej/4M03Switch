@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4M03Switch.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Włącz pogrubienie tekstu"
+                x:Name="lblText"
+                />
+            <Switch
+                Toggled="onSwitchToggled"
+                x:Name="swBold"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
